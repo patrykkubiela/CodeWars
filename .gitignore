@@ -1,0 +1,6 @@
+*.dll
+*.pdb
+*.cache
+project.razor.json
+./Persistence/bin
+./Persistence/obj
