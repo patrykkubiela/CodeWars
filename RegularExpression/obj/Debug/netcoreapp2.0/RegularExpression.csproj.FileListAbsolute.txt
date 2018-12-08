@@ -1,0 +1,10 @@
+R:\Development\Blog\CodeWars\RegularExpression\obj\Debug\netcoreapp2.0\RegularExpression.csproj.CoreCompileInputs.cache
+R:\Development\Blog\CodeWars\RegularExpression\obj\Debug\netcoreapp2.0\RegularExpression.AssemblyInfoInputs.cache
+R:\Development\Blog\CodeWars\RegularExpression\obj\Debug\netcoreapp2.0\RegularExpression.AssemblyInfo.cs
+R:\Development\Blog\CodeWars\RegularExpression\bin\Debug\netcoreapp2.0\RegularExpression.deps.json
+R:\Development\Blog\CodeWars\RegularExpression\bin\Debug\netcoreapp2.0\RegularExpression.runtimeconfig.json
+R:\Development\Blog\CodeWars\RegularExpression\bin\Debug\netcoreapp2.0\RegularExpression.runtimeconfig.dev.json
+R:\Development\Blog\CodeWars\RegularExpression\bin\Debug\netcoreapp2.0\RegularExpression.dll
+R:\Development\Blog\CodeWars\RegularExpression\bin\Debug\netcoreapp2.0\RegularExpression.pdb
+R:\Development\Blog\CodeWars\RegularExpression\obj\Debug\netcoreapp2.0\RegularExpression.dll
+R:\Development\Blog\CodeWars\RegularExpression\obj\Debug\netcoreapp2.0\RegularExpression.pdb
