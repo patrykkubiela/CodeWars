@@ -5,7 +5,7 @@ using System.Linq;
 
 namespace ComplementaryDna
 {
-    class Program
+    public static class Program
     {
         static void Main(string[] args)
         {
@@ -22,35 +22,33 @@ namespace ComplementaryDna
             
             for (int i = 0; i < dna.Length; i++)
             {
-                var value = dna[i];
-                if (value == 'A')
-                {
-                    ReplaceAt(copyDna, i, 'T');
-                }
-                else if (value == 'T')
-                {
-                    ReplaceAt(copyDna, i, 'A');
-                }
+                copyDna.SwapDnaLeter(dna, i, 'A', 'T');
             }
             
             for (int i = 0; i < dna.Length; i++)
             {
-                var value = dna[i];
-                if (value == 'G')
-                {
-                    ReplaceAt(copyDna, i, 'C');
-                }
-                else if (value == 'C')
-                {
-                    ReplaceAt(copyDna, i, 'G');
-                }
+                copyDna.SwapDnaLeter(dna, i, 'C', 'G');
             }
 
             var result = new string(copyDna.ToArray());
             return result;
         }
 
-        public static void ReplaceAt(List<char> copyDna, int index, char insertedCharacter)
+        private static void SwapDnaLeter(this List<char> listToChange, string dnaPattern, int index,
+            char firstConditionValue, char secondConditionValue)
+        {
+            var value = dnaPattern[index];
+            if (value == firstConditionValue)
+            {
+                ReplaceAt(listToChange, index, secondConditionValue);
+            }
+            else if (value == secondConditionValue)
+            {
+                ReplaceAt(listToChange, index, firstConditionValue);
+            }
+        }
+        
+        private static void ReplaceAt(List<char> copyDna, int index, char insertedCharacter)
         {
             copyDna.Insert(index, insertedCharacter);
             copyDna.RemoveAt(++index);
