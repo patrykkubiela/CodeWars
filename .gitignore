@@ -15,3 +15,5 @@ project.razor.json
 ./CodeKata/ComplementaryDna/obj
 ./CodeKata/RegularExpression/bin
 ./CodeKata/RegularExpression/obj
+./CodeKata/TestCase/TitleCase/bin
+./CodeKata/TestCase/TitleCase/obj
