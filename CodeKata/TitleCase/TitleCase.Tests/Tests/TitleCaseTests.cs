@@ -6,6 +6,7 @@ namespace TitleCase.Tests
     {
         [Theory]
         [InlineData("a clash of KINGS", "a an the of", "A Clash of Kings")]
+        [InlineData("a clash of KINGS", null, "A Clash Of Kings")]
         [InlineData("THE WIND IN THE WILLOWS", "The In", "The Wind in the Willows")]
         public void MyTest(string sampleTitle, string sampleMinorWords, string expected)
         {

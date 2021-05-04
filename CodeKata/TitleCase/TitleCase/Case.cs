@@ -10,10 +10,14 @@ namespace TitleCase
             if (string.IsNullOrWhiteSpace(title)) return title;
 
             var titleLowered = title.ToLower();
-            var minorLowered = minorWords.ToLower();
-
             var separatedTitleLowered = titleLowered.Split(" ");
+
+            if (string.IsNullOrWhiteSpace(minorWords))
+                minorWords = string.Empty;
+
+            var minorLowered = minorWords.ToLower();
             var separatedMinorLowered = minorLowered.Split(" ");
+
 
             var result = new List<string>();
             foreach (var word in separatedTitleLowered)
