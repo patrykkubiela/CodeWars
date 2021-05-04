@@ -1,6 +1,19 @@
+## Exercism
+
+**/node_modules
+
+
+##  CodeKata
+
 *.dll
 *.pdb
 *.cache
 project.razor.json
-./Persistence/bin
-./Persistence/obj
+./CodeKata/Persistence/bin
+./CodeKata/Persistence/obj
+./CodeKata/ComplementaryDna/bin
+./CodeKata/ComplementaryDna/obj
+./CodeKata/RegularExpression/bin
+./CodeKata/RegularExpression/obj
+./CodeKata/TestCase/TitleCase/bin
+./CodeKata/TestCase/TitleCase/obj
